@@ -6,6 +6,18 @@ This project employs deep learning techniques for comprehensive semen analysis, 
 
 Accurate assessment of semen quality is crucial in the diagnosis and treatment of male infertility. Traditional methods can be subjective and time-consuming. This project aims to leverage deep learning to automate and enhance the accuracy of semen analysis.
 
+## MHSMA Dataset
+
+The **MHSMA Dataset** is utilized in this project for sperm morphology and motility analysis. It contains structured data that helps in diagnosing male infertility. The dataset includes:
+
+- **Morphology Data** – Describes the shape and structure of sperm cells (normal or abnormal).
+- **Motility Data** – Measures the movement efficiency of sperm (progressive, non-progressive, or immotile).
+- **Concentration** – The sperm count per unit of semen volume.
+- **Vitality** – Determines the percentage of live sperm in a sample.
+
+This dataset is crucial for training deep learning models to automate sperm classification, leveraging **CNNs (Convolutional Neural Networks)** and statistical techniques for feature extraction and analysis.
+
+
 ## Methodology
 
 The analysis is conducted using Jupyter Notebooks, which include:
@@ -14,42 +26,6 @@ The analysis is conducted using Jupyter Notebooks, which include:
 - **Model Development**: Building and training convolutional neural networks (CNNs) to classify and evaluate sperm characteristics.
 - **Evaluation**: Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
-## Repository Structure
-
-- `notebooks/`: Contains Jupyter Notebooks detailing data preprocessing, model development, and evaluation.
-- `data/`: Placeholder for datasets used in the analysis (datasets are not included due to size constraints).
-- `models/`: Directory to save trained models for future inference.
-- `results/`: Stores evaluation metrics and visualizations of model performance.
-
-## Requirements
-
-To replicate the analysis, install the necessary Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/MahdiTiba/Infertility-Analysis.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd Infertility-Analysis
-   ```
-
-3. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the Jupyter Notebooks in the `notebooks/` directory to preprocess data, train models, and evaluate performance.
 
 ## License
 
